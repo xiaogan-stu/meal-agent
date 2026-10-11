@@ -1,0 +1,34 @@
+{
+  "benchmarkVersion": "benchmark-v2.0",
+  "description": "今日宜食 76 会话、136 轮固定评测集：含 20 组四轮澄清/调整会话、8 条候选越界红队样本，以及意图、槽位、风险、性能和故障降级评测",
+  "datasetDesign": {
+    "sessionCount": 76,
+    "turnCount": 136,
+    "multiTurnSessionCount": 20,
+    "turnsPerMultiTurnSession": 4
+  },
+  "slotNames": [
+    "mealTime",
+    "mood",
+    "scene",
+    "healthGoal",
+    "cuisine",
+    "taste",
+    "convenience"
+  ],
+  "intentLabels": [
+    "MEAL_RECOMMENDATION",
+    "CLARIFY_NEEDED",
+    "MEAL_ADJUST",
+    "MEAL_PLAN",
+    "HEALTH_RISK",
+    "OTHER"
+  ],
+  "notes": [
+    "Gold Label 必须由项目作者人工复核后才能用于简历数字。",
+    "公共餐食 ID 以 src/main/resources/db/diet_db.sql 的 1-4 为基准。",
+    "Raw 意图基线指同一轮 IntentAgent 在 Java IntentReviseService 之前的输出，不代表旧代码版本。",
+    "常规样本与候选越界红队样本必须分开报告，红队命中率不能解释为线上自然越界率。",
+    "同一评测集文件的 SHA-256 会写入报告，compare_reports.py 会拒绝比较不同评测集。"
+  ]
+}

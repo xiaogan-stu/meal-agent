@@ -1,0 +1,4 @@
+{"fault":"INTENT_AGENT_ERROR","endpoint":"CHAT","repeat":1,"message":"午餐想吃清淡一点的，健康目标是养胃","sourceMode":"PUBLIC","expectedAgent":"IntentAgent"}
+{"fault":"CLARIFY_AGENT_ERROR","endpoint":"CHAT","repeat":1,"message":"帮我推荐点吃的","sourceMode":"PUBLIC","expectedAgent":"ClarifyAgent"}
+{"fault":"RECOMMEND_AGENT_ERROR","endpoint":"CHAT","repeat":1,"message":"午餐，健康目标是减脂，想吃轻食","sourceMode":"PUBLIC","expectedAgent":"RecommendResponseAgent"}
+{"fault":"EVALUATION_JUDGE_ERROR","endpoint":"EVALUATION","repeat":1}

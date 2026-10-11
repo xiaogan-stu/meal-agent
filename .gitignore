@@ -1,0 +1,51 @@
+# IDE and operating-system files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+Thumbs.db
+
+# Java / Maven outputs
+target/
+tmp/
+*.log
+
+# Frontend dependencies and outputs
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# The Vue 3 application in frontend/ is the maintained UI.
+# This legacy static UI is intentionally excluded from the public repository.
+src/main/resources/static/
+
+# Python caches and generated evaluation reports
+__pycache__/
+*.py[cod]
+evaluation/__pycache__/
+evaluation/reports/*
+!evaluation/reports/.gitkeep
+
+# Local artifacts and agent workspace metadata
+.artifacts/
+.agents/
+
+# Local environment files and credentials
+.env
+.env.*
+!.env.example
+application-local.yml
+application-local.yaml
+application-local.properties
+
+# Personal learning/interview material; keep only public technical docs
+docs/*.docx
+docs/DEBUG_LEARNING_GUIDE.md
+docs/INTERVIEW_PREP_4_PILLARS.md
+docs/PROJECT_INTERVIEW_GUIDE.md
+docs/REBRAND_BLUEPRINT.md
+docs/TECH_STACK.md
+docs/VUE_FRONTEND_ZERO_TO_ONE_GUIDE.md
+scripts/

@@ -1,0 +1,2 @@
+{"caseId":"smoke_rec","category":"RECOMMENDATION","sourceMode":"PUBLIC","turns":[{"message":"午餐想吃轻食，健康目标是减脂","expectedIntent":"MEAL_RECOMMENDATION","expectedSlots":{"mealTime":["午餐"],"healthGoal":["减脂"],"cuisine":["轻食"]},"expectedClarifyAction":"READY","evaluateSlots":true,"acceptableMealIds":[3]}]}
+{"caseId":"smoke_clarify","category":"CLARIFY","sourceMode":"PUBLIC","turns":[{"message":"帮我推荐点吃的","expectedIntent":"CLARIFY_NEEDED","expectedSlots":{},"expectedClarifyAction":"ASK","evaluateSlots":true}]}
